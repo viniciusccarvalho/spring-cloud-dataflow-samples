@@ -1,0 +1,6 @@
+== Schema Registry Samples
+
+This repo contains samples for two different scenarios:
+
+* Event Sourcing: Demonstrate how to handle situations where events evolve through time and how your EventHandler can replay events with different versions
+* Data Pipeline: Demonstrate a data streaming pipeline where a single consumer can safely consume data from producers of different versions
